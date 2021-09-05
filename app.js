@@ -12,7 +12,7 @@ const app = Vue.createApp({
       this.showGoals = !this.showGoals;
     },
     addGoal() {
-      if (this.goals.includes(this.userInput)) {
+      if (this.goals.includes(this.userInput) || this.userInput != '') {
         alert('This goal has been already added!');
       } else if (this.userInput != '') {
         this.goals.push(this.userInput);
