@@ -20,7 +20,7 @@ header {
   text-align: center;
 }
 
-#assignment {
+#vue-app {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   margin: 3rem;
   border-radius: 10px;
@@ -28,20 +28,20 @@ header {
   text-align: center;
 }
 
-#assignment h2 {
+#vue-app h2 {
   font-size: 2rem;
   border-bottom: 4px solid #ccc;
   color: #1b995e;
   margin: 0 0 1rem 0;
 }
 
-#assignment ul {
+#vue-app ul {
   list-style: none;
   margin: 1rem 0;
   padding: 0;
 }
 
-#assignment li {
+#vue-app li {
   margin: 1rem 0;
   font-size: 1.25rem;
   font-weight: bold;
@@ -52,19 +52,19 @@ header {
   overflow-wrap: break-word;
 }
 
-#assignment input {
+#vue-app input {
   font: inherit;
   border: 1px solid #ccc;
   margin-right: 15px;
 }
 
-#assignment input:focus {
+#vue-app input:focus {
   outline: none;
   border-color: #1b995e;
   background-color: #d7fdeb;
 }
 
-#assignment button {
+#vue-app button {
   font: inherit;
   cursor: pointer;
   border: 1px solid #ff0077;
@@ -76,8 +76,8 @@ header {
   border-radius: 25px;
 }
 
-#assignment button:hover,
-#assignment button:active {
+#vue-app button:hover,
+#vue-app button:active {
   background-color: #ec3169;
   border-color: #ec3169;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
